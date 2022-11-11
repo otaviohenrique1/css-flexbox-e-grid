@@ -19,11 +19,15 @@ body {
 }
 
 .cabecalho__menu i::before {
-  contain: "\e904";
+  content: "\e904";
+  font-size: 24px;
 }
 
 .cabecalho__notificacao i::before {
-  contain: "\e906";
+  content: "\e906";
+  font-size: 24px;
 }
 
-.cabecalho__logo {}
+.cabecalho__logo {
+  width: 40px;
+}
