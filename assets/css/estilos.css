@@ -39,6 +39,14 @@ body {
   background: #15191C;
   width: 75vw; /* Largura do viewport*/
   height: 100vh;  /* Altura do viewport*/
+  position: absolute;
+  left: -100vw;
+  transition: .25s;
+}
+
+.menu-lateral--ativo {
+  left: 0;
+  transition: .25s;
 }
 
 .menu-lateral__logo {
