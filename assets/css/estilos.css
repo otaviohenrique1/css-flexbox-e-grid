@@ -104,6 +104,7 @@ body {
 
 .principal {
   padding: 24px 16px;
+  display: grid;
 }
 
 .titulo-pagina {
@@ -121,7 +122,8 @@ body {
 .cartao__conteudo {
   padding: 16px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: /* 1fr */ auto 1fr;
+  row-gap: 8px;
 }
 
 .cartao__destaque {
