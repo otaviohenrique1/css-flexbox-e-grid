@@ -297,23 +297,44 @@ body {
 
   .cartao--recentes .cartao__titulo {
     grid-column: auto;
+    font-weight: 600;
+    color: #0480DC;
+    justify-self: flex-end;
   }
 
   .cartao__link {
     font-size: 0.8rem;
+  }
+
+  .cartao__lista {
+    display: grid;
+    row-gap: 16px;
+    grid-column: span 2;
+  }
+
+  .cartao_item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+  }
+
+  .cartao__item--thumbnail {
+    width: 32px;
+    grid-row: span 2;
+  }
+
+  .cartao__item--titulo {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: 700;
+  }
+
+  .cartao__item--perfil {
+    font-size: 0.8rem;
+    color: #95999C;
   }
 }
 
 .cartao__titulo {}
 
 .cartao__link {}
-
-.cartao__lista {}
-
-.cartao_item {}
-
-.cartao__item--thumbnail {}
-
-.cartao__item--titulo {}
-
-.cartao__item--perfil {}
